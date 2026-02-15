@@ -1,30 +1,12 @@
+www/*
+!www/local/
+
+# Остальное
 data/
-
-# Логи
 logs/
-
-# Кэш Битрикс
-www/bitrix/cache/
-www/bitrix/managed_cache/
-www/bitrix/modules/*
-!www/bitrix/modules/.gitkeep
-www/bitrix/php_interface/compiled_templates/
-
-# Загрузки (если не нужны в репо)
-# www/upload/
-
-# Конфиги с секретами
 .env
-www/bitrix/.settings.php
-
-# Системные файлы
+bitrix/
+upload/
 .DS_Store
-Thumbs.db
-
-# IDE
 .vscode/
 .idea/
-
-# Docker
-.dockerignore
-EOF
