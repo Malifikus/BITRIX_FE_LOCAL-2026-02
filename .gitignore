@@ -1,5 +1,21 @@
-www/*
-!www/local/
+# Игнорируем всё
+*
+
+# Разрешаем
+!/.gitignore
+!/README.md
+!/docker-compose.yml
+!/up.sh
+!/down.sh
+!/dctl.sh
+!/rebuild.sh
+!/containers/
+!/www/
+!/www/local/
+
+# Запрещаем всё кроме local
+/www/*
+!/www/local/
 
 # Остальное
 data/
