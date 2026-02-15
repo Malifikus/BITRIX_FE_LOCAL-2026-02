@@ -1,0 +1,7 @@
+/data/
+/logs/
+/bitrix/
+/upload/
+/local/.settings.php
+*.log
+.env
